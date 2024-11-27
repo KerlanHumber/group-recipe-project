@@ -1,0 +1,171 @@
+/* General Styling */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #e3f2fd, #d1efff);
+    color: #333;
+  }
+  
+  /* Header */
+  #header {
+    text-align: center;
+    padding: 20px;
+    background: #90caf9;
+    color: white;
+  }
+  
+  #header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  /* Search Section */
+  #search-section {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  #search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  #search-bar {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+  }
+  
+  #search-button {
+    background-color: #f48fb1;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 0 5px 5px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #search-button:hover {
+    background-color: #f06292;
+  }
+  
+  /* Filters Section */
+  #filters-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  #filters-container select,
+  #filters-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Recipe Grid */
+  #recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .recipe-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .recipe-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .recipe-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+
+  /* Contact Us Section */
+#contact-us {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 280px;
+    background: #f4faff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    z-index: 1000;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  /* Contact Us Heading */
+  #contact-us h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #64b5f6;
+  }
+  
+  /* Contact Form Styling */
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact-form input,
+  #contact-form textarea,
+  #contact-form button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d1efff;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+  }
+  
+  #contact-form textarea {
+    height: 60px;
+    resize: none;
+  }
+  
+  #contact-form button {
+    background-color: #64b5f6;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact-form button:hover {
+    background-color: #42a5f5;
+  }
