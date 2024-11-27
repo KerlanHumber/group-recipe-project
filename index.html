@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Website Title -->
+  <header id="header">
+    <h1>Recipe Explorer</h1>
+  </header>
+
+  <!-- Search and Filters -->
+  <section id="search-section">
+    <div id="search-bar-container">
+      <input type="text" id="search-bar" placeholder="Search recipes...">
+      <button id="search-button">Find Recipes</button>
+    </div>
+    <div id="filters-container">
+      <select id="culture">
+        <option value="">Culture</option>
+        <option value="asian">Asian</option>
+        <option value="middle-eastern">Middle Eastern</option>
+        <option value="caribbean">Caribbean</option>
+      </select>
+      <select id="difficulty">
+        <option value="">Difficulty</option>
+        <option value="easy">Easy</option>
+        <option value="moderate">Moderate</option>
+        <option value="hard">Hard</option>
+      </select>
+      <input type="number" id="time" placeholder="Max Time (minutes)">
+    </div>
+  </section>
+
+  <!-- Recipe Grid -->
+  <section id="recipe-grid">
+    <article class="recipe-card">
+      <img src="https://via.placeholder.com/300x200" alt="Recipe Image">
+      <h3>Taco Bowl</h3>
+      <p>20 mins | Easy</p>
+    </article>
+    <article class="recipe-card">
+      <img src="https://via.placeholder.com/300x200" alt="Recipe Image">
+      <h3>Pesto Pasta</h3>
+      <p>20 mins | Easy</p>
+    </article>
+    <article class="recipe-card">
+      <img src="https://via.placeholder.com/300x200" alt="Recipe Image">
+      <h3>Chicken Fried Rice</h3>
+      <p>30 mins | Easy</p>
+    </article>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
