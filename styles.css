@@ -111,6 +111,46 @@ body {
   margin-bottom: 10px;
 }
 
+/* Favorites Section Styling */
+#Favorites-section {
+  margin-top: 40px;
+  background-color: #ffd4f1;
+  border: 2px solid #ff6bbc;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header with Title and Heart */
+.favorites-header h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.8rem;
+  color: #d872b6;
+  display: inline-block;
+  margin: 0;
+}
+
+/* Heart Icon */
+.favorites-header .heart {
+  color: #ef1b7a;
+  font-size: 1.5rem;
+  margin-left: 8px;
+}
+
+/* Placeholder Text */
+.favorites-placeholder {
+  font-size: 1rem;
+  color: #999;
+  margin-top: 16px;
+}
+
+/* Hover Effect */
+#favorites-section:hover {
+  background-color: #fef4fb;
+  border-color: #fabbdd;
+}
+
 /* Contact Us Section */
 #contact-us {
   position: fixed;
