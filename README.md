@@ -13,9 +13,9 @@ For this project, we are creating an interactive recipe website. Our website is 
    - Share feedback or suggestions through a simple form
 ---
 ### Screenshots of Features
-![Search Bar] (assets/Search-Bar.png)
-![Culture Filter] (assets/Culture-Filter.png)
-![Difficulty Filter] (assets/Difficulty-Filter.png)
-![Max Cooking Time] (assets/Max-Cooking-Time.png)
-![Favorites Section] (assets/Favourites-Section.png)
-![Contact Form] (assets/Contact-Form.png)
+![Search Bar](assets/Search-Bar.png)
+![Culture Filter](assets/Culture-Filter.png)
+![Difficulty Filter](assets/Difficulty-Filter.png)
+![Max Cooking Time](assets/Max-Cooking-Time.png)
+![Favorites Section](assets/Favourites-Section.png)
+![Contact Form](assets/Contact-Form.png)
