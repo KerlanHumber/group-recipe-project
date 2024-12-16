@@ -12,9 +12,9 @@ For this project, we are creating an interactive recipe website. Our website is 
 4. **Contact Form**
    - Share feedback or suggestions through a simple form
 # Team Members and Contributions
-Kerlan Augustine: Team leader, HTML developer, Github manager
-Naslihan Mohammed Ayoub: CSS developer
-Caleb Berkoh: Javascript developer
+- Kerlan Augustine: Team leader, HTML developer, Github manager
+- Naslihan Mohammed Ayoub: CSS developer
+- Caleb Berkoh: Javascript developer
 
 ---
 ### Screenshots of Features
