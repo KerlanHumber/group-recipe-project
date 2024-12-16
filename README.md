@@ -15,7 +15,10 @@ For this project, we are creating an interactive recipe website. Our website is 
 - Kerlan Augustine: Team leader, HTML developer, Github manager
 - Naslihan Mohammed Ayoub: CSS developer, Code reviewer
 - Caleb Berkoh: Javascript developer
-
+# Documentation
+- Issues Board: https://github.com/KerlanHumber/group-recipe-project/issues
+- Project Board: https://github.com/users/KerlanHumber/projects/1
+- Youtube Video:
 ---
 ### Screenshots of Features
 ![Search Bar](assets/Search-Bar.png)
