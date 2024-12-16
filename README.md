@@ -18,7 +18,8 @@ For this project, we are creating an interactive recipe website. Our website is 
 # Documentation
 - Issues Board: https://github.com/KerlanHumber/group-recipe-project/issues
 - Project Board: https://github.com/users/KerlanHumber/projects/1
-- Youtube Video:
+- Youtube Video: [![Watch the video](https://img.youtube.com/vi/<https://youtu.be/p7dHp-rthfw>/0.jpg)](https://www.youtube.com/watch?v=<https://youtu.be/p7dHp-rthfw>)
+ 
 ---
 ### Screenshots of Features
 ![Search Bar](assets/Search-Bar.png)
